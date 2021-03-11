@@ -11,7 +11,7 @@ server.use(express.json());
 server.use('/api/users', logger, usersRouter);
 
 server.get('/', (req, res) => {
-  res.send(`<h2>Published?</h2>`);
+  res.send(`<h2>Published? Maybe working now?</h2>`);
 });
 
 module.exports = server;
